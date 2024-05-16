@@ -1,0 +1,1 @@
+from LowLevelDesign.Logger.loggers.logger import InfoLogger, DebugLogger, ErrorLoggerlogger = InfoLogger(DebugLogger(None))logger.log("info", "InfoLog")logger.log("debug", "DebugLog")logger.log("error", "ErrorLog")

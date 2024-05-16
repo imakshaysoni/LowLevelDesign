@@ -1,0 +1,1 @@
+from LowLevelDesign.ProxyDesingPattern.server.server import DBServerclass MySQLServer(DBServer):    def __init__(self, user):        self.user = user    def create_user(self):        return "User Created."    def delete_user(self):        return "User Deleted."    def fetch_user(self):        return "User Fetched."

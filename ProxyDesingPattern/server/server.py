@@ -1,0 +1,1 @@
+from abc import ABC, abstractmethodclass DBServer(ABC):    @abstractmethod    def __init__(self, user):        pass    @abstractmethod    def create_user(self):        pass    @abstractmethod    def delete_user(self):        pass    @abstractmethod    def fetch_user(self):        pass
