@@ -1,6 +1,6 @@
 # System Design Implementation and Class Diagram
 
-This repository contains the implementation of a low-level system design and a corresponding class diagram. The system design focuses on [describe the main purpose or functionality of the system]. The class diagram illustrates the relationships and structure of the components within the system.
+This repository contains the implementation of a low-level system design and a corresponding class diagram. The system design focuses on Low Level System Design Understanding & Implementation. The class diagram illustrates the relationships and structure of the components within the system.
 
 ## Features
 - **System Design:** Detailed implementation of the system architecture, including components, interactions, and data flow.
