@@ -1,0 +1,1 @@
+from LowLevelDesign.NULLDesignPattern.vehicle.vehicle import Car, Bike, NullObjectclass VehicleFactory:    def __init__(self):        pass    def get_vehicle(self, veh):        if veh == "Car":            return Car()        elif veh == "Bike":            return Bike()        else:            return NullObject()

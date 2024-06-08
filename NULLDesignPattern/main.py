@@ -1,0 +1,1 @@
+from LowLevelDesign.NULLDesignPattern.vehicle_factory.factory import VehicleFactoryprint("Null Design Pattern")vehicle_factory = VehicleFactory()vehicle = vehicle_factory.get_vehicle("XYA")# Get Wheelswheels = vehicle.get_wheels()print(wheels)

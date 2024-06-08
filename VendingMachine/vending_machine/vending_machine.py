@@ -1,0 +1,1 @@
+from LowLevelDesign.VendingMachine.states.idle_state import IdleStateclass VendingMachine():    def __init__(self, inventory):        self.state = IdleState()        self.inventory = inventory

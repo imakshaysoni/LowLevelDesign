@@ -1,0 +1,1 @@
+from LowLevelDesign.VendingMachine.states.state import Statefrom LowLevelDesign.VendingMachine.states.has_cash import HasCashclass IdleState(State):    def __init__(self):        super().__init__()    def cash_deposit(self, amount):        self.amount = amount        next_state = HasCash()        self.change_state(next_state)

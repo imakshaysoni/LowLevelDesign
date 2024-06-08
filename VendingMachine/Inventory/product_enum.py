@@ -1,0 +1,1 @@
+class Product:    _id = 0    def __init__(self, name, cost, count):        self.name = name        self._id = Product._id        self.cost = cost        self.count = count        Product._id  += 1    def update_stock(self, new_count):        self.count = new_count    def update_cost(self, new_cost):        self.cost = new_cost
